@@ -6,14 +6,45 @@
   <head> 
 
     <meta charset="utf-8" /> 
-    <link href="../CSS/Stylesheet.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/Stylesheet.css" type="text/css" rel="stylesheet" />
    <title>Kedvenc receptem</title> 
+
+    <style>
+        h1 {
+            text-align: center; /* Teljes tartalom középre igazítása */
+        }
+
+        .container {
+            width: 80%; /* Példa: a tartalom 80%-ban szélességű legyen */
+            margin: 0 auto; /* Középre igazítás: bal és jobb oldalon azonos margó */
+            text-align: left; /* Szöveg balra igazítása a tartályon belül */
+        }
+
+        .image-container {
+            text-align: center; /* Középre igazítás */
+            margin-top: 20px; /* Felső margó */
+        }
+
+        /* Kivétel a felsorolásokra és h3 címekre */
+        p,
+        h2 {
+            text-align: center;
+        }
+
+        .table_nutrition {
+            margin: 0 auto; /* Táblázat középre igazítása */
+        }
+    </style>
 
    </head> 
 
 <body>
 
     <h1>Fanta szelet</h1>
+
+    <div class="image-container">
+        <img src="Images/Fanta szelet image.jpg" alt="Kép leírása" width="300" height="200">
+    </div>
 
     <hr>
 <h2>Hozzávalók</h2>
@@ -41,7 +72,8 @@
         <li>1 ek citromlé</li>
     </ul>
 
-    
+        <hr>
+
         <table class="table_nutrition">
             <caption>Tápérték</caption>
         <tr>
