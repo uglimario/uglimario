@@ -14,7 +14,9 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2.5em;
+    font-family: 'Algerian', sans-serif;
+    
 }
 
 a:link,
@@ -66,4 +68,43 @@ html {
   
   caption {
     padding: 10px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 60%;
+    border-radius: 15px;
+  }
+
+  .flex-container > div {
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+  
+  }
+
+  .flex-elkeszites {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 80%;
+    border-radius: 18px;
+    align-items:  ;
+    justify-content: center;
+    weight: 100vh;
+    margin: auto;
+    align: center;
+  }
+
+  .flex-elkeszites > div {
+    background-color: white;
+    margin: 13px;
+    padding: 15px;
+    font-size: 1.1em;
+    border: 6px;
+    border-radius: 18px;
   }
