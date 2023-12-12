@@ -121,6 +121,12 @@ html {
     border: 6px;
     border-radius: 18px;
   }
+  
   .linkbutton-container {
     text-align: center;
+  }
+
+  .flex-elkeszites > div.elkeszitestitle {
+    background-color: rgb(208, 235, 255);
+    margin: 25px;
   }
