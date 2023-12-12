@@ -14,9 +14,22 @@ h1 {
 }
 
 h2 {
+    font-size: 2em ;
+}
+
+.elkeszites{
     font-size: 2.5em;
-    font-family: 'Algerian', sans-serif;
-    
+    font-family: 'Algerian', sans-serif;  
+}
+
+.custom-button {
+    font-size: 1.25em;
+    text-align: center;
+    flex-direction: column;
+    border-width: 5px;
+    border-radius: 11px;
+    border-color: white;
+
 }
 
 a:link,
@@ -84,7 +97,7 @@ html {
     padding: 10px;
     font-size: 1.1em;
     border-radius: 5px;
-  
+    text-align: center !;   /*Működőképes, csak kikell szedni a !-et*/
   }
 
   .flex-elkeszites {
@@ -107,4 +120,7 @@ html {
     font-size: 1.1em;
     border: 6px;
     border-radius: 18px;
+  }
+  .linkbutton-container {
+    text-align: center;
   }
