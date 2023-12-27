@@ -4,19 +4,36 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="" type="text/css" />
- 
+    <link href="CSS/Stylesheet.css" type="text/css" rel="stylesheet" /> 
     <title> Mértékegység átváltás </title>
 </head>
  
 <body>
     <script src="kalkulator.js"></script>
     <h1> Mértékegységek átváltása </h1>
-    <h2> Font - kilogramm </h2> 
+
+    <h2> Font(lb) - Kilogramm(kg) </h2> 
    
     <input id="inputFont" type="number" placeholder = "Font"
-    oninput = "fontKilogramkonverter(this.value)" onchange="fontKilogramkonverter(this.value)" />
-    kilogramm: <span id="outputkilogramm"></span>
-</body>
+    oninput = "fontKilogrammkonverter(this.value)" onchange="fontKilogrammkonverter(this.value)" />
+    Kilogramm: <span id="outputkilogramm"></span>
+
+    <h2> Kilogramm(kg) - Font(lb)</h2> 
+   
+    <input id="inputKilogramm" type="number" placeholder = "Kilogramm"
+    oninput = "Kilogrammfontkonverter(this.value)" onchange="Kilogrammfontkonverter(this.value)" />
+    Font: <span id="outputfont"></span>
+
+    <h2> Inch - Centiméter </h2> 
+   
+    <input id="inputinch" type="number" placeholder = "inch"
+    oninput = "Inchcentikonverter(this.value)" onchange="Inchcentikonverter(this.value)" />
+    cm: <span id="outputcenti"></span>
+
+    <h2> Centiméter(cm) - Inch</h2> 
+   
+    <input id="inputcenti" type="number" placeholder = "cm"
+    oninput = "centiInchkonverter(this.value)" onchange="centiInchkonverter(this.value)" />
+    inch: <span id="outputinch"></span></body>
  
 </html> 

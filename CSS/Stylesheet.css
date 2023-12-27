@@ -87,7 +87,7 @@ html {
     display: flex;
     flex-direction: column;
     background-color: blue;
-    width: 60%;
+    width: auto;
     border-radius: 15px;
   }
 
@@ -129,4 +129,110 @@ html {
   .flex-elkeszites > div.elkeszitestitle {
     background-color: rgb(208, 235, 255);
     margin: 25px;
+  }
+
+  .fontkilo-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(27, 23, 23);
+    padding: 8px;
+    margin: 10px;
+    width: auto;
+    border: #000000 ;
+    border: 6px;
+    border-radius: 18px;
+    justify-content: center;
+    weight: 100vh;
+    align: center;
+  }
+
+  .fontkilo-container > div.kilo {
+    background-color: rgb(255, 255, 200);
+    margin: 7px;
+    padding: 15px;
+    font-size: 1.1em;
+    border: 6px;
+    border-radius: 18px;
+  }
+
+  .fontkilo-container > div.font {
+    background-color: rgb(255, 255, 200);
+    margin: 7px;
+    padding: 15px;
+    font-size: 1.1em;
+    border: 6px;
+    border-radius: 18px;
+  }
+
+  .fontkilo-container > div.kilo > div.outputkg {
+    background-color: rgb(156, 156, 125);
+    margin: auto;
+    padding: 19px;
+    font-size: 1.1em;
+    border: 6px;
+    border-radius: 18px;
+    align: center;
+  }
+
+  .fontkilo-container > div.font > div.outputlb {
+    background-color: rgb(156, 156, 125);
+    margin: auto;
+    padding: 19px;
+    font-size: 1.1em;
+    border: 6px;
+    border-radius: 18px;
+    align: center;
+  }
+
+  .inchcenti-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(27, 23, 23);
+    padding: 8px;
+    margin: 10px;
+    width: auto;
+    border: #000000 ;
+    border: 6px;
+    border-radius: 18px;
+    justify-content: center;
+    weight: 100vh;
+    align: center;
+  }
+
+  .inchcenti-container > div.centi {
+    background-color: rgb(255, 255, 200);
+    margin: 7px;
+    padding: 15px;
+    font-size: 1.1em;
+    border: 6px;
+    border-radius: 18px;
+  }
+
+  .inchcenti-container > div.inch {
+    background-color: rgb(255, 255, 200);
+    margin: 7px;
+    padding: 15px;
+    font-size: 1.1em;
+    border: 6px;
+    border-radius: 18px;
+  }
+
+  .inchcenti-container > div.centi > div.outputcm {
+    background-color: rgb(156, 156, 125);
+    margin: auto;
+    padding: 19px;
+    font-size: 1.1em;
+    border: 6px;
+    border-radius: 18px;
+    align: center;
+  }
+
+  .inchcenti-container > div.inch > div.outputinch {
+    background-color: rgb(156, 156, 125);
+    margin: auto;
+    padding: 19px;
+    font-size: 1.1em;
+    border: 6px;
+    border-radius: 18px;
+    align: center;
   }

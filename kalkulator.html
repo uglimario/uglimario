@@ -12,11 +12,43 @@
 <body>
     <script src="Kalkulatorok/Script/kalkulator.js"></script>
     <h1> Mértékegységek átváltása </h1>
-    <h2> Font - kilogramm </h2> 
-   
-    <input id="inputFont" type="number" placeholder = "Font"
-    oninput = "fontKilogramkonverter(this.value)" onchange="fontKilogramkonverter(this.value)" />
-    <h3>Kilogramm: <span id="outputkilogramm"></span></h3>
+
+    <div class="fontkilo-container">
+        <div class="kilo">
+            <h2> Font(lb) - Kilogramm(kg) </h2> 
+            <div class="outputkg">
+                <input id="inputFont" type="number" placeholder = "lb"
+                oninput = "fontKilogrammkonverter(this.value)" onchange="fontKilogrammkonverter(this.value)" />
+                Kilogramm: <span id="outputkilogramm"></span>
+            </div>
+        </div>
+        <div class="font">
+            <h2> Kilogramm(kg) - Font(lb)</h2> 
+            <div class="outputlb">
+                <input id="inputKilogramm" type="number" placeholder = "kg"
+                oninput = "Kilogrammfontkonverter(this.value)" onchange="Kilogrammfontkonverter(this.value)" />
+                Font: <span id="outputfont"></span>
+            </div>
+        </div>
+    </div>
+    <div class="inchcenti-container">
+        <div class="centi">
+            <h2> Inch - Centiméter </h2> 
+            <div class="outputcm">
+                <input id="inputinch" type="number" placeholder = "inch"
+                oninput = "Inchcentikonverter(this.value)" onchange="Inchcentikonverter(this.value)" />
+                cm: <span id="outputcenti"></span>
+            </div>
+        </div>
+        <div class="inch">
+            <h2> Centiméter(cm) - Inch</h2> 
+            <div class="outputinch">
+                <input id="inputcenti" type="number" placeholder = "cm"
+                oninput = "centiInchkonverter(this.value)" onchange="centiInchkonverter(this.value)" />
+                inch: <span id="outputinch"></span></body>
+            </div>
+        </div>
+    </div>
 </body>
  
 </html> 
